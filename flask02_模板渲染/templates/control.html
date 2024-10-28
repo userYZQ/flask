@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>if和for循环</title>
+</head>
+<body>
+{% set age = age | default(0) %}  <!-- 设置默认值为0 -->
+{% if age > 18 %}
+    <div>已成年</div>
+{% elif age == 18 %}
+    <div>刚满18岁</div>
+{% else %}
+    <div>未成年</div>
+{% endif %}
+<hr>
+{% for book in books %}
+    <div>图书名称:{{ book.name }},作者:{{ book.author }}</div>
+{% endfor %}
+</body>
+</html>
