@@ -17,6 +17,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/flask04_模板继承/templates" />
+        <option value="$MODULE_DIR$/flask05_数据库/template" />
       </list>
     </option>
   </component>
